@@ -19,10 +19,10 @@ export default function Map() {
   }
   const data = [
     { lati: '13.071842', longi: '77.785228', time: 0 },
-    { lati: '13.007647', longi: '71.583903', time: 0 },
+    { lati: '13.187190', longi: '77.708209', time: 0 },
     { lati: '13.053156', longi: '77.760664', time: 0 },
     { lati: '12.976201', longi: '70.6390064', time: 0 },
-    { lati: '12.929993', longi: '40.505893', time: 0 },
+    { lati: '12.987476', longi: '77.519239', time: 0 },
     { lati: '13.084071', longi: '77.487712', time: 0 },
   ]
   const token = 'eb99c03b-f273-431e-8b5d-499761b72fa4'
@@ -61,7 +61,7 @@ export default function Map() {
       <MapView
         style={styles.map}
         initialRegion={{
-          latitude: 37.78825,
+          latitude: 13.071842,
           longitude: -122.4324,
           latitudeDelta: 0.0922,
           longitudeDelta: 0.0421,
